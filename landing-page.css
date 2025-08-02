@@ -1,0 +1,90 @@
+body {background-color: #ffb612;}
+
+#header {background-color: #203731;
+width: 100%;
+color: white;
+font-size: 35px;
+display: flex;
+position: fixed;
+top: 0;
+left: 0;}
+
+#nav-bar {font-size: 20px;
+position: fixed;
+right: 50px;
+top: 0px;
+background-color: transparent;
+justify-content: space-evenly;
+padding-right: 10px;
+border: 10px solid transparent;
+}
+
+#header-img {background-color: #203731;width: 100px;
+height: 100px;}
+
+.motto {margin-top: 30px;
+margin-left: 15px;}
+
+a {color: #ffb612;}
+
+a:hover {color: #203731;
+background-color: #ffb612;}
+
+a:visited {color: white;}
+
+.page {text-align: center;}
+
+footer {background-color: #203731;
+color: white;
+text-align: center;
+font-size: 25px;}
+
+h1 {font-size: 50px;
+color: #203731;
+margin-bottom: 0;}
+
+#email {margin-bottom: 10px;
+font-size: 24px;
+margin-top: 10px;}
+
+.button {background-color: #203731;
+color: #ffb612;
+border-color: white;
+border: 5px solid white;
+width: 200px;
+height: 50px;
+font-size: 32px;
+margin-bottom: 25px;}
+
+.head-coach {font-size: 25px;
+width: 250px;
+height: 250px;
+border-style: double;}
+
+.players {font-size: 25px;
+  width: 250px;
+height: 250px;
+border-style: double;}
+
+.lambeau {font-size: 25px;
+width: 250px;
+height: 250px;
+border-style: double;
+}
+
+.info {margin-top: 15px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-bottom: 15px;} 
+
+h1 {font-size: 24px;
+font-weight: bold;}
+
+p {font-style: italic;}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #ffb612;
+  }
+}
